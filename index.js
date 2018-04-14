@@ -20,3 +20,8 @@ var n = 10
 function dec(n){
   return n -= 1;
 }
+
+var n = "10"
+function makeInt(n){
+  return parseInt(n,10); 
+}
